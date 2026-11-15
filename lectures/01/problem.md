@@ -88,7 +88,7 @@ GitHub の自分の fork で、`lec01` → `main` の PR を作成します。**
 モデルの切り替え例：
 
 ```bash
-AIE_MODEL=gemini-3.5-flash uv run python -m app.ask "LoRAとは何ですか？"
+AIE_MODEL=gemini-3.8-flash uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
 ### 呼び出すモデルについての補足
@@ -98,7 +98,7 @@ gemini 3.5 flashにおいては、Gemini APIのドキュメントが更新され
 - 参考：Gemini 3.5 Flashのドキュメント
 https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash?hl=ja
 
-このように、サービスとして提供されているLLMは頻繁に仕様が変わるため、サービス仕様のドキュメントを確認するなどの習慣を付けておき仕様変更に対応しましょう。
+このようにAIE_MODEL=gemini-3.5-flash uv run python -m app.ask 、サービスとして提供されているLLMは頻繁に仕様が変わるため、サービス仕様のドキュメントを確認するなどの習慣を付けておき仕様変更に対応しましょう。
 
 第1回の宿題においては、任意にモデルを変えて実施していただければ問題ありません。
 
